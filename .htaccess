@@ -1,0 +1,7 @@
+#Para ocultar las carpetas del proyecto, el usuario no pueda entrar desde la URL
+Options All -Indexes
+#AuthType Basic
+#AuthName "Restricted Access"
+#AuthUserFile /home/access_folder/webpass
+#Require user WebaccesS
+

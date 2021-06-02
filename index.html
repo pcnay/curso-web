@@ -85,6 +85,36 @@
 		
 		<section>
 			<h2>Contactos</h2>
+			<form>
+				<!-- Estos campos se enviaran a una base de datos siempre y cuando se configure y se utilize leguajes de programacion Backend -->
+				<fieldset>
+					<!-- Se utiliza para darle indicacion a un Usuario -->
+					<legend>Contactanos llenando todos los campos</legend>
+					
+					<!-- Se tiene varios tipos : number, checkbox, radio, text, tel por defecto es "text" -->
+					<!-- El <DIV> se aplica donde no se utilize, head, aside, etc.-->
+					<div>
+						<label>Nombre</label>
+						<input type="text" placeholder="Tu nombre"/>
+					</div>
+					<div>					
+						<label>Telefono</label>
+						<input type="tel" placeholder="Tu Telefono"/>
+					</div>
+					<div>
+						<label>Correo electronico</label>
+						<input type="email" placeholder="Tu Email"/>
+					</div>
+					<div>
+						<label>Mensaje</label>
+						<textarea></textarea>
+					</div>
+
+					<input type="submit" value="Enviar">
+					<!-- <button type="submit" value="Enviar">Enviar</button> -->
+
+				</fieldset>
+			</form>
 		</section>
 
 		<footer>
